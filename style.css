@@ -12,16 +12,15 @@
 	color: white;
 	background-color: crimson;
 }
-.navbar-nav{
-	position: sticky;
-	z-index: 1;
-}
+
 
 html {
 	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
+
 
 #hero {
 	padding: 20px 0 50px 0;
@@ -29,7 +28,10 @@ html {
 	background-size: cover;
 	background-position: top center;
 	position: relative;
+	background-repeat: no-repeat;
+	/* overflow: auto; */
 	z-index: 1;
+		/* overflow-x: hidden; */
 }
 
 #hero::after {
@@ -94,10 +96,13 @@ html {
 	h1.section-title {
 		font-size: 6rem;
 	}
-
+#hero{
+	overflow-x: hidden;
+}
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
+	
 	}
 }
 /* End Media Query For Tablet */

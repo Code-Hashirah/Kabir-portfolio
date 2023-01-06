@@ -11,31 +11,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
+    <header id="header " class="fixed-top">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
                 <a href="#hero" class="text-decoration-none text-white">
-                    <h1 class="text-uppercase"><span class="text-danger">K</span class="text-white">abir <span class="text-danger">A</span>jibade</h1>
+                    <h1 class="text-uppercase "><span class="text-danger">K</span class="text-white">abir <span class="text-danger">A</span>jibade</h1>
                   </a>
             </div>
             <div class="container-fluid">
-              <a class="navbar-brand" href="#about"></a>
+              <a class="navbar-brand " href="#about"></a>
+              
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="collapsibleNavbar">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#header">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Services</a>
+                      <a class="nav-link" href="#Services">Services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Projects</a>
+                      <a class="nav-link" href="Projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#About">About</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Contact</a>
@@ -47,52 +48,86 @@
     </header>
    
     <section id="hero">
-      <div class="hero container">
+      <div class="hero container p-5 m-2">
         <div>
           <h1>Hello, <span></span></h1>
           <h1>My Name is <span></span></h1>
           <h1>Kabir <span></span></h1>
-          <a href="#projects" type="button" class="btn btn-outline-danger border-5 text-white px-lg-5 py-3 text-uppercase">Portfolio</a>
+          <a href="#projects" type="button" class="btn btn-outline-danger border-5 text-white  text-uppercase">Portfolio</a>
         </div>
       </div>
     </section>
-</body>
-</html>
+
+    
+<!-- services section  -->
+<section id="services" class="row">
+  <h1 class="text-center card-title bg-transparent  text-h1 m-4"><span class="text-danger text-uppercase fa-brands fa-servicestack"> S</span>ervices</h1>
+  <div class="col-md-6 col-sm-12">
+    <div class="card text-bg-primary" >
+      <img src="img/Design.jpg" alt="">
+      <div class="card-img-overlay">
+       <p class="card-text h1">Data Analysis</p>
+     </div>
+   </div>
+  </div>
+  
+   <div class="col-md-6 col-sm-12">
+    <div class="card text-bg-primary">
+     <img src="img/Design.jpg" alt="">
+     <div class="card-img-overlay">
+      <p class="card-text h1">Web Development</p>
+      <p>I do develop websites for all </p>
+    </div>
+   </div>
+   </div>
+   
+   <div class="col-md-6 col-sm-12">
+    <div class="card text-bg-primary" >
+     <img src="img/Design.jpg" alt="">
+     <div class="card-img-overlay">
+      <p class="card-text h1">Desktop App Development</p>
+      <p>I do develop websites for all </p>
+    </div>
+   </div>
+   </div>
+   
+   <div class="col-md-6 col-sm-12">
+     <div class="card text-bg-primary" >
+     <img src="img/Design.jpg" alt="">
+     <div class="card-img-overlay">
+      <p class="card-text h1">Training</p>
+      <p>I do develop websites for all I do develop websites for all </p>
+    </div>
+   </div>
+   </div>
+  
+  </section>
+  
+  <section id="about">
+  
+  </section>
 <!-- Projects section  -->
 <section id="projects">
   
 </section>
 
-<!-- services section  -->
-<section id="services">
-<div class="services container row">
-
-</div>
-</section>
-
-<section id="about">
-
-</section>
 
  <!-- Footer -->
  <section id="footer">
   <div class="footer container">
     <div class="brand">
-      <h1><span>K</span>abir <span>A</span>jibade</h1>
+      <h1 class="text-white text-uppercase"><span class="text-danger">K</span>abir <span class="text-danger">A</span>jibade</h1>
     </div>
     <h2>Your Complete Web Solution</h2>
     <div class="social-icon">
       <div class="social-item">
-        <a href="#">Phone Number<span></span></a>
+        <a href="https://wa.me/48162850719"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
       <div class="social-item">
-        <a href="#">Whatsapp<span> </span></a>
+        <a href="https://twitter.com/code-hashira"><i class="fa-brands fa-twitter"></i></a>
       </div>
       <div class="social-item">
-        <a href="#">twitter</a>
-      </div>
-      <div class="social-item">
-        <a href="#">linkedIn</a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
       </div>
     </div>
   </div>
@@ -100,3 +135,6 @@
 
 <!-- ======================================================================================================================= -->
 <script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
