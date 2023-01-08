@@ -58,12 +58,16 @@ html {
 	position: relative;
 	color: white;
 }
+
 #hero a{
 	margin: 20px;
 	font-size: 34px;
 
 }
-
+.cardimgOV{
+	overflow-y: auto;
+	/* overflow-wrap: break-word; */
+}
 /* footer css */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -103,6 +107,9 @@ html {
 	#hero h1 {
 		font-size: 7rem;
 	
+	}
+	html{
+		overflow-x: hidden;
 	}
 }
 /* End Media Query For Tablet */
