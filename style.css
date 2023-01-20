@@ -7,6 +7,7 @@
 #header{
 	background-color: transparent;
 	/* opacity: 0.9; */
+	
 }
 .nav-link:hover{
 	color: white;
@@ -22,11 +23,12 @@ html {
 }
 
 
+
 #hero {
 	padding: 20px 0 50px 0;
-	background-image: url(./img/hero-bg.png);
-	background-size: cover;
-	background-position: top center;
+	background-image: url(./img/hero-bg1.jpg);
+	background-size:contain;
+	background-position: center;
 	position: relative;
 	background-repeat: no-repeat;
 	/* overflow: auto; */
@@ -64,6 +66,14 @@ html {
 	font-size: 34px;
 
 }
+.wrapper{
+	animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	/* font-family: monospace; */
+	font-size: 2em;
+	}
 .cardimgOV{
 	overflow-y: auto;
 	/* overflow-wrap: break-word; */
@@ -143,4 +153,15 @@ html {
 		margin: 1.5%;
 	}
 }
+
+/* @keyframes typing {
+	from {
+		width: 5;
+	}
+}
+@keyframes blink {
+	10%{
+		border-color: transparent;
+	}
+} */
 /* End  Media Query For Desktop */
